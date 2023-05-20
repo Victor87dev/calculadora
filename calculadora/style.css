@@ -11,25 +11,23 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+background-color: #eee;
+border: 3px solid #bbb;
+width: 230px;
+border-radius: 5px;
 }
 
 .div_nome{
 display: flex;
 justify-content: center;
 align-items: center;
-}
-
-.div_display{
-display: flex;
-justify-content: center;
-align-items: center;
+width: 220px;
 }
 
 .div_teclas{
 display: flex;
 justify-content: center;
 align-items: center;
-border: 1px solid #888;
 width: 220px;
 flex-wrap: wrap;
 }
@@ -51,4 +49,22 @@ margin: 2px;
 .teclaOp{
   background-color: #f44 !important;
   border-color: #800 !important;
+}
+
+/* DISPLAY */ 
+
+.div_display{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 220px;
+}
+
+.display{
+width: 220px;
+background-color: #8a8;
+text-align: right;
+padding: 5px;
+font-family: monospace;
+font-size: larger;
 }
