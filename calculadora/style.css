@@ -6,13 +6,19 @@ box-sizing: border-box;
 font-size: large;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
 .calc{
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 background-color: #eee;
-border: 3px solid #bbb;
+border: 3px solid rgb(0, 26, 255) ;
 width: 230px;
 border-radius: 5px;
 }
@@ -47,8 +53,8 @@ margin: 2px;
 }
 
 .teclaOp{
-  background-color: #f44 !important;
-  border-color: #800 !important;
+  background-color: rgb(24, 22, 131) !important;
+  border-color: rgb(32, 207, 219) !important;
 }
 
 /* DISPLAY */ 
@@ -62,7 +68,7 @@ width: 220px;
 
 .display{
 width: 220px;
-background-color: #8a8;
+background-color: #3ec7d1;
 text-align: right;
 padding: 5px;
 font-family: monospace;
